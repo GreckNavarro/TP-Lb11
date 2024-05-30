@@ -10,12 +10,12 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.N))
         {
             currentfactory = GetComponent<FactoryNatureZombie>();
             currentfactory.CreateEnemy();
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             currentfactory = GetComponent<FactoryFireZombie>();
             currentfactory.CreateEnemy();
@@ -23,6 +23,16 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             currentfactory = GetComponent<FactoryRandomZombie>();
+            currentfactory.CreateEnemy();
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            currentfactory = GetComponent<FactorySpiritZombie>();
+            currentfactory.CreateEnemy();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            currentfactory = GetComponent<FactoryAirZombie>();
             currentfactory.CreateEnemy();
         }
     }

@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NatureZombie : MonoBehaviour, IAttack
+public class AirZombie : MonoBehaviour, IAttack
 {
     public void OnAttack()
     {
-        Debug.Log("Estoy atacando, fiu fiu");
+        Debug.Log("Estoy atacando, fufufu");
     }
     private void OnEnable()
     {

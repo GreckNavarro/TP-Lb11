@@ -428,6 +428,8 @@ GameObject:
   - component: {fileID: 1894044434}
   - component: {fileID: 1894044435}
   - component: {fileID: 1894044436}
+  - component: {fileID: 1894044438}
+  - component: {fileID: 1894044437}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -505,6 +507,34 @@ MonoBehaviour:
   enemigos:
   - {fileID: 3426073720064480957, guid: ee4ec974e28baaa47aa506b9091d0523, type: 3}
   - {fileID: 1162767217641453169, guid: 8eef3c96d62842049889065636c392bb, type: 3}
+  - {fileID: 6490988980139955088, guid: d836447729457014b8d99ad52ca7870b, type: 3}
+  - {fileID: 3318407674562958997, guid: c1b2d417a60bcc04cb6675c4e76f6f7c, type: 3}
+--- !u!114 &1894044437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894044429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3adcba9dc4c8b143b9bba3e8914fa11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 3318407674562958997, guid: c1b2d417a60bcc04cb6675c4e76f6f7c, type: 3}
+--- !u!114 &1894044438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894044429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b6dcea82c616749a217bb7e3862452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 6490988980139955088, guid: d836447729457014b8d99ad52ca7870b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
